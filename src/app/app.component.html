@@ -1,3 +1,13 @@
 <p #content>Hello</p>
 
-<button #button>Color</button>
+<!-- <button #button>Color</button> -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-3 border border-success">
+        <h3>Grandfather Component</h3> 
+        <button class="btn btn-sm btn-info" (click)="changeGrandson()">Change grandson</button>
+        <app-parent class="col-md-12"></app-parent>
+      </div>
+    </div>
+  </div>
